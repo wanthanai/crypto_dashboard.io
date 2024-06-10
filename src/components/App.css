@@ -1,0 +1,227 @@
+:root {
+  --primary-color: #4CAF50;
+  --secondary-color: #ff5722;
+  --font-family: 'Arial', sans-serif;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: beige;
+  padding: 4rem;
+  text-align: center;
+  font-size: 2rem ;
+  color: black;
+}
+
+/* img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px auto 20px;
+  display: block;
+} */
+
+h1 {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 25px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 35px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 50px;
+  margin-left: 25%;
+  border-radius: 5px;
+  width: 1000px;
+  height: 60px;
+  max-width: 300%;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: normal;
+  color: #000000;
+}
+
+.search-input::placeholder {
+  color: #5b5b5b; 
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  margin-left: 20px;
+  color: white;
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Playfair Display", serif;
+  font-weight: 200;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #71b8ff;
+  padding: 15px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-header h1 {
+  font-size: 30px;
+  font-family:"Nunito", sans-serif;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.crypto-info {
+  background-color: white;
+  font-size: 20px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 4px rgba(245, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.crypto-info:hover {
+  background-color: #73b7fa;
+}
+
+.crypto-chart {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 400px; 
+}
+
+.crypto-row {
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid #b3b0b0;
+}
+
+.crypto-cell {
+  flex: 1;
+  text-align: center;
+  font-family:"Kanit", sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+
+.crypto-cell.name {
+  font-weight: 400;
+}
+
+.crypto-cell.price,
+.crypto-cell.market-cap {
+  color: #686868;
+  font-weight: 400;
+  text-align: center;
+}
+
+.crypto-cell.change {
+  font-weight: 500;
+}
+
+.crypto-cell.change.positive {
+  color: #28a745;
+}
+
+.crypto-cell.change.negative {
+  color: #dc3545;
+}
+
+.loading-message,
+.error-message {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Playfair Display", sans-serif;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: #dc3545;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+}
